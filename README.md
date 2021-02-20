@@ -33,11 +33,13 @@ This is an updated version of our [covid-mobility](https://github.com/snap-stanf
 
 **covid_constants_and_util.py**: Constants (e.g., file paths) and general utility methods. 
 
-**helper_methods_for_aggregate_data_analysis.py**: Various helper methods used in data processing and throughout the analysis. 
+**helper_methods_for_aggregate_data_analysis.py**: Helper methods used in data processing and throughout the analysis. 
 
 **disease_model.py**: Implements the disease model on the mobility network. 
 
 **model_experiments.py**: Runs models for the experiments described in the paper. 
+
+**model_results.py**: Helper methods to visualize and analyze results from model experiments.
 
 **process_safegraph_data.ipynb**: Processes the raw SafeGraph data. 
 
