@@ -35,6 +35,8 @@ This is an updated version of our [covid-mobility](https://github.com/snap-stanf
 
 **helper_methods_for_aggregate_data_analysis.py**: Helper methods used in data processing and throughout the analysis. 
 
+**generate_ipf.py**: Generates POI-CBG mobility networks using iterative proportional fitting.
+
 **disease_model.py**: Implements the disease model on the mobility network. 
 
 **model_experiments.py**: Runs models for the experiments described in the paper. 
