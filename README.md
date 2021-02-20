@@ -6,7 +6,7 @@ This is an updated version of our [covid-mobility](https://github.com/snap-stanf
 
 ## Regenerating results
 
-1. **Setting up virtualenv**. Our code is run in a conda environment, with all analysis performed on a Linux Ubuntu system. You can set up this environment by running `conda env create --prefix YOUR_PATH_HERE --file safegraph_env_v3.yml`. Once you have set up the environment, activate it prior to running any code by running `source YOUR_PATH_HERE/bin/activate`. 
+1. **Setting up virtualenv**. Our code is run in a conda environment, with all analysis performed on a Linux Ubuntu system. You can set up this environment by running `conda env create --prefix YOUR_PATH_HERE --file covid_mobility_env.yml`. Once you have set up the environment, activate it prior to running any code by running `source YOUR_PATH_HERE/bin/activate`. 
 
 2. **Downloading datasets**. See Section 2.1 of our paper for details on the following datasets.
     - SafeGraph data is freely available to researchers, non-profits, and governments through the [SafeGraph COVID-19 Data Consortium](https://www.safegraph.com/covid-19-data-consortium). We use SafeGraph's [Places](https://docs.safegraph.com/v4.0/docs/places-schema) and [Weekly Patterns (v2)](https://docs.safegraph.com/v4.0/docs/weekly-patterns) datasets for fine-grained information about points of interest (POI), and SafeGraph's [Social Distancing Metrics](https://docs.safegraph.com/v4.0/docs/social-distancing-metrics) for mobility information per census block group (CBG).
@@ -49,5 +49,5 @@ This is an updated version of our [covid-mobility](https://github.com/snap-stanf
 
 **make_figures.ipynb**: Once the models have been run, reproduces figures and other results in the paper. 
 
-**safegraph_env_v3.yml**: Used to set up the conda environment. 
+**covid_mobility_env.yml**: Used to set up the conda environment. 
 
